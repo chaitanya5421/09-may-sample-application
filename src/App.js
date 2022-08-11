@@ -8,12 +8,18 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import ListsandKeys from './Components/ListsandKeys';
 import Conditionalrend from './Components/Conditionalrend';
 import ContactUs from './Components/Contactus/ContactUs';
+import LifeCyclemethods from './Components/lifecyclemethods/LifeCyclemethods';
+import Userdata from './Components/userdata/Usersdata';
+import Pagination from './Components/pagination/Pagination';
 
 function App() {
   return (
     <div className="App">
         <Header />
-        <ContactUs />
+        <LifeCyclemethods />
+        {/* <Userdata /> */}
+        <Pagination />
+        {/* <ContactUs /> */}
         {/* <Conditionalrend /> */}
         {/* <ListsandKeys /> */}
         {/* <FunctComp name="React" duration="3 Months" />
