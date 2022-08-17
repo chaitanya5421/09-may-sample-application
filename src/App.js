@@ -11,14 +11,19 @@ import ContactUs from './Components/Contactus/ContactUs';
 import LifeCyclemethods from './Components/lifecyclemethods/LifeCyclemethods';
 import Userdata from './Components/userdata/Usersdata';
 import Pagination from './Components/pagination/Pagination';
+import {Routes,router,Route} from "react-router-dom";
+import Routing from './Components/Routing/Routing';
 
 function App() {
   return (
     <div className="App">
         <Header />
-        <LifeCyclemethods />
+        <Routing />
+      
+
+        {/* <LifeCyclemethods /> */}
         {/* <Userdata /> */}
-        <Pagination />
+        {/* <Pagination /> */}
         {/* <ContactUs /> */}
         {/* <Conditionalrend /> */}
         {/* <ListsandKeys /> */}

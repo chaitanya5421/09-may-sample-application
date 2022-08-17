@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from "react-router-dom";
 function Header() {
   return (
     <div>
@@ -15,10 +15,13 @@ function Header() {
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <Link to="/users" class="nav-link" >users</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <Link to="/pagination" class="nav-link" >Pagination</Link>
+        </li>
+        <li class="nav-item">
+          <Link to="/contactus" class="nav-link">ContactUs</Link>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
