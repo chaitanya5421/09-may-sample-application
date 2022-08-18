@@ -24,6 +24,9 @@ function Header() {
           <Link to="/contactus" class="nav-link">ContactUs</Link>
         </li>
         <li class="nav-item">
+          <Link to="/CounterApp" class="nav-link">CounterApp</Link>
+        </li>
+        <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
       </ul>

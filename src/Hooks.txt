@@ -1,0 +1,11 @@
+Hooks - 16
+    - useState
+        - brings state in functional component.
+    - useEffect
+        - it brings life cycle methods to func component.
+        
+    - useReducer
+    - useRef
+    - UseContext
+    - useMemo
+    - useCallBack
