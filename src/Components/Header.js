@@ -27,6 +27,12 @@ function Header() {
           <Link to="/CounterApp" class="nav-link">CounterApp</Link>
         </li>
         <li class="nav-item">
+          <Link to="/userdata-useffect" class="nav-link">useEffect</Link>
+        </li>
+        <li class="nav-item">
+          <Link to="/useEffect-pagination" class="nav-link">useEffectPagination</Link>
+        </li>
+        <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
       </ul>
