@@ -4,6 +4,8 @@ import ContactUs from '../Contactus/ContactUs'
 import CounterFuncComp from '../Hooks/CounterFuncComp'
 import UseEffectHook from '../Hooks/UseEffectHook'
 import UseEffectPagination from '../Hooks/UseEffectPagination'
+import UseReducer from '../Hooks/UseReducer'
+import UseRef from '../Hooks/UseRef'
 import Pagination from '../pagination/Pagination'
 import Userdata from '../userdata/Usersdata'
 
@@ -18,6 +20,8 @@ function Routing() {
         <Route path="/counterApp" element={<CounterFuncComp />} />
         <Route path="/userdata-useffect" element={<UseEffectHook />} />
         <Route path="/useEffect-pagination" element={<UseEffectPagination />} />
+        <Route path="/useRef" element={<UseRef />} />
+        <Route path="/useReducer" element={<UseReducer />} />
       </Routes>
     </div>
   )

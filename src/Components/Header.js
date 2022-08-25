@@ -33,6 +33,12 @@ function Header() {
           <Link to="/useEffect-pagination" class="nav-link">useEffectPagination</Link>
         </li>
         <li class="nav-item">
+          <Link to="/useRef" class="nav-link">useRef</Link>
+        </li>
+        <li class="nav-item">
+          <Link to="/useReducer" class="nav-link">useReducer</Link>
+        </li>
+        <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
       </ul>

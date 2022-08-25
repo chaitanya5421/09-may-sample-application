@@ -20,6 +20,10 @@ function UseEffectPagination() {
     //componentdidmount & componentdidUpdate
     useEffect(()=>{
         getPaginationData();
+
+        return ()=>{
+            //clean up 
+        }
     }, [pageNumber])
 
   return (

@@ -13,12 +13,22 @@ import Userdata from './Components/userdata/Usersdata';
 import Pagination from './Components/pagination/Pagination';
 import {Routes,router,Route} from "react-router-dom";
 import Routing from './Components/Routing/Routing';
+import ComponentC from './Components/Hooks/UseContext/ComponentC';
+import React, { useContext } from 'react';
+import ComponentB from './Components/Hooks/UseContext/ComponentB';
+
+export const UserContext = React.createContext();
 
 function App() {
+
   return (
     <div className="App">
         <Header />
         <Routing />
+        {/* <UserContext.Provider value={"chaitanya"}>
+          <ComponentB  />
+        </UserContext.Provider> */}
+        
       
 
         {/* <LifeCyclemethods /> */}
